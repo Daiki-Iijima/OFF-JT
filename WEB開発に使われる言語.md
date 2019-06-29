@@ -2,6 +2,8 @@
 
 ## HTML
 
+**Webページを作るための最も基本的なマークアップ言語のひとつです。**
+
 ### 正式名称
 
 HyperText Markup Language
@@ -21,6 +23,8 @@ HyperText Markup Language
 
 ## CSS
 
+**Webサイトの装飾やレイアウトを指定するもの**
+
 ### 正式名称
 
 Cascading Style Sheets
@@ -34,32 +38,111 @@ Cascading Style Sheets
   - リスト : リストマーク・リストの場所の指定
   - ボックスプロパティ : ホームページ上の表示方法に関するもの
 - CSS 2
-- CSS 3
+- CSS 3 : [最新]
 
 ### 歴史
 
 - 発表年 : 1996年 : CSS 1
-- バージョンが上がるにつれてできることが増える
+- W3C(World Wide Web Consortium]から発表
+- バージョンが上がるにつれてできることが増えている
 
 ## JavaScript
 
+**ユーザー側のWebブラウザと、Webサイトまたはウェブサービスの相互間のやりとりを、円滑にするために使われています**
+
+### 正式名称
+
+JavaScript
+
+### バージョン
+
+| JavaScript バージョン | 公開日  | IE              | Firefox | Chrome | ECMAScriptとの対応 |
+| --------------------- | ------- | --------------- | ------- | ------ | ------------------ |
+| 1.5                   | 2000/11 | 6 (JScript 5.6) | 1       | 1      | edition 3          |
+|                       |         | 7 (JScript 5.7) |         |        |                    |
+|                       |         | 8 (JScript 5.8) |         |        |                    |
+| 1.6                   | 2005/11 | -               | 1.5     | -      |                    |
+| 1.7                   | 2006/10 | -               | 2       | -      |                    |
+| 1.8                   | 2008/06 | -               | 3       | -      |                    |
+| 1.8.5                 | 2010/07 | 9               | 4       | -      | edition 5          |
+| 1.8.6                 |         |                 | 17      |        |                    |
+| 2                     |         |                 |         |        | edition 6          |
+
+### 歴史
+
+- 発表年 : 1995年
+- 開発者 : ブレンダン・アイク
+- Javaが当時大きな注目を浴びていたので、JavaScriptという名前にされた
+
+### よく聞くフレームワーク
+
 - jQuery
+
 - React.js
+
 - AngularJS
-- 
 
-## 有名な言語
+- Vue.js
 
-### PHP
+- Backbone.js
 
-### Ruby
+  
 
-### perl
+  [参考]
 
-### TypeScript
+  https://www.high-performer.jp/engineer/trend/javascript-framework/
 
-### Python
+# 有名な言語
 
-### Elixir
+## PHP
 
-### ActionScript
+Webアプリ・サービス開発に特化した言語
+
+構文がシンプルでプログラミングが未経験でもとっつきやすい
+
+## Ruby
+
+Ruby on Rails というWebアプリケーションフレームワークの1つを使用することが多い
+
+MVCアーキテクチャを採用しているのでモダンな設計が可能
+
+## Perl
+
+テキスト処理が部分が優秀
+
+C言語、シェル言語を参考に作成されているので似た文法で記述ができる
+
+## TypeScript
+
+JavaScriptに様々な言語機能の拡張を加えたもの
+
+JavaScriptのスーパーセット
+
+## Python
+
+可動性の高いプログラミングが可能
+
+処理が早い
+
+- Django
+
+- Flask
+
+- Bottle
+
+  などの Webアプリケーションフレームワークを使ってwebアプリを作成する
+
+## Elixir 
+
+Rubyに似ている部分が多い
+
+Erlangという言語で実装されている
+
+並行処理とか分散処理がものすごい得意
+
+## ActionScript
+
+JavaScriptのスーパーセット
+
+AdobeのFlash用のプログラム言語
+
